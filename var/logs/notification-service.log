@@ -1,0 +1,73 @@
+2021-06-11T06:49:05,650 [main] INFO  com.upgrad.notificationservice.NotificationService - Starting NotificationService v1.0-SNAPSHOT using Java 11.0.11 on f24d6e33fa35 with PID 1 (/notification-service.jar started by root in /)
+2021-06-11T06:49:05,705 [main] DEBUG com.upgrad.notificationservice.NotificationService - Running with Spring Boot v2.4.5, Spring v5.3.6
+2021-06-11T06:49:05,709 [main] INFO  com.upgrad.notificationservice.NotificationService - No active profile set, falling back to default profiles: default
+2021-06-11T06:49:08,035 [main] INFO  com.upgrad.notificationservice.NotificationService - Started NotificationService in 3.091 seconds (JVM running for 5.092)
+2021-06-11T07:00:42,344 [main] INFO  com.upgrad.notificationservice.NotificationService - Starting NotificationService v1.0-SNAPSHOT using Java 11.0.11 on 6a533d66e664 with PID 1 (/notification-service.jar started by root in /)
+2021-06-11T07:00:42,371 [main] DEBUG com.upgrad.notificationservice.NotificationService - Running with Spring Boot v2.4.5, Spring v5.3.6
+2021-06-11T07:00:42,383 [main] INFO  com.upgrad.notificationservice.NotificationService - No active profile set, falling back to default profiles: default
+2021-06-11T07:00:44,894 [main] INFO  com.upgrad.notificationservice.NotificationService - Started NotificationService in 3.967 seconds (JVM running for 7.888)
+2021-06-11T07:04:03,122 [main] INFO  com.upgrad.notificationservice.NotificationService - Starting NotificationService v1.0-SNAPSHOT using Java 11.0.11 on b669fe9017fb with PID 1 (/notification-service.jar started by root in /)
+2021-06-11T07:04:03,139 [main] DEBUG com.upgrad.notificationservice.NotificationService - Running with Spring Boot v2.4.5, Spring v5.3.6
+2021-06-11T07:04:03,141 [main] INFO  com.upgrad.notificationservice.NotificationService - No active profile set, falling back to default profiles: default
+2021-06-11T07:04:05,280 [main] INFO  com.upgrad.notificationservice.NotificationService - Started NotificationService in 2.933 seconds (JVM running for 5.944)
+2021-06-11T07:06:55,680 [main] INFO  com.upgrad.notificationservice.NotificationService - Starting NotificationService v1.0-SNAPSHOT using Java 11.0.11 on 61b1b7f6806d with PID 1 (/notification-service.jar started by root in /)
+2021-06-11T07:06:55,695 [main] DEBUG com.upgrad.notificationservice.NotificationService - Running with Spring Boot v2.4.5, Spring v5.3.6
+2021-06-11T07:06:55,697 [main] INFO  com.upgrad.notificationservice.NotificationService - No active profile set, falling back to default profiles: default
+2021-06-11T07:06:58,992 [main] INFO  com.upgrad.notificationservice.NotificationService - Started NotificationService in 3.89 seconds (JVM running for 5.789)
+2021-06-11T07:10:30,523 [main] INFO  com.upgrad.notificationservice.NotificationService - Starting NotificationService v1.0-SNAPSHOT using Java 11.0.11 on 2bdcd9bb1c22 with PID 1 (/notification-service.jar started by root in /)
+2021-06-11T07:10:30,558 [main] DEBUG com.upgrad.notificationservice.NotificationService - Running with Spring Boot v2.4.5, Spring v5.3.6
+2021-06-11T07:10:30,561 [main] INFO  com.upgrad.notificationservice.NotificationService - No active profile set, falling back to default profiles: default
+2021-06-11T07:10:36,262 [main] INFO  com.upgrad.notificationservice.NotificationService - Started NotificationService in 7.209 seconds (JVM running for 10.832)
+2021-07-13T12:39:28,982 [main] INFO  com.upgrad.notificationservice.NotificationService - Starting NotificationService v1.0-SNAPSHOT using Java 11.0.11 on 27b6ad968b69 with PID 1 (/notification-service.jar started by root in /)
+2021-07-13T12:39:29,028 [main] DEBUG com.upgrad.notificationservice.NotificationService - Running with Spring Boot v2.4.5, Spring v5.3.6
+2021-07-13T12:39:29,031 [main] INFO  com.upgrad.notificationservice.NotificationService - No active profile set, falling back to default profiles: default
+2021-07-13T12:39:34,342 [main] INFO  com.upgrad.notificationservice.NotificationService - Started NotificationService in 6.539 seconds (JVM running for 9.561)
+2021-07-13T16:28:36,362 [main] INFO  com.upgrad.notificationservice.NotificationService - Starting NotificationService v1.0-SNAPSHOT using Java 11.0.11 on 27b6ad968b69 with PID 1 (/notification-service.jar started by root in /)
+2021-07-13T16:28:36,393 [main] DEBUG com.upgrad.notificationservice.NotificationService - Running with Spring Boot v2.4.5, Spring v5.3.6
+2021-07-13T16:28:36,397 [main] INFO  com.upgrad.notificationservice.NotificationService - No active profile set, falling back to default profiles: default
+2021-07-13T16:28:43,503 [main] INFO  com.upgrad.notificationservice.NotificationService - Started NotificationService in 8.307 seconds (JVM running for 11.658)
+2021-07-13T16:53:30,890 [main] INFO  com.upgrad.notificationservice.NotificationService - Starting NotificationService v1.0-SNAPSHOT using Java 11.0.11 on 27b6ad968b69 with PID 1 (/notification-service.jar started by root in /)
+2021-07-13T16:53:30,923 [main] DEBUG com.upgrad.notificationservice.NotificationService - Running with Spring Boot v2.4.5, Spring v5.3.6
+2021-07-13T16:53:30,927 [main] INFO  com.upgrad.notificationservice.NotificationService - No active profile set, falling back to default profiles: default
+2021-07-13T16:53:35,728 [main] INFO  com.upgrad.notificationservice.NotificationService - Started NotificationService in 6.182 seconds (JVM running for 9.34)
+2021-07-13T16:58:45,182 [main] INFO  com.upgrad.notificationservice.NotificationService - Starting NotificationService v1.0-SNAPSHOT using Java 11.0.11 on 27b6ad968b69 with PID 1 (/notification-service.jar started by root in /)
+2021-07-13T16:58:45,209 [main] DEBUG com.upgrad.notificationservice.NotificationService - Running with Spring Boot v2.4.5, Spring v5.3.6
+2021-07-13T16:58:45,214 [main] INFO  com.upgrad.notificationservice.NotificationService - No active profile set, falling back to default profiles: default
+2021-07-13T16:58:50,172 [main] INFO  com.upgrad.notificationservice.NotificationService - Started NotificationService in 6.102 seconds (JVM running for 9.208)
+2021-07-13T17:02:06,720 [main] INFO  com.upgrad.notificationservice.NotificationService - Starting NotificationService v1.0-SNAPSHOT using Java 11.0.11 on 27b6ad968b69 with PID 1 (/notification-service.jar started by root in /)
+2021-07-13T17:02:06,821 [main] DEBUG com.upgrad.notificationservice.NotificationService - Running with Spring Boot v2.4.5, Spring v5.3.6
+2021-07-13T17:02:06,836 [main] INFO  com.upgrad.notificationservice.NotificationService - No active profile set, falling back to default profiles: default
+2021-07-13T17:02:12,264 [main] INFO  com.upgrad.notificationservice.NotificationService - Started NotificationService in 7.089 seconds (JVM running for 10.658)
+2021-07-14T10:29:12,692 [main] INFO  com.upgrad.notificationservice.NotificationService - Starting NotificationService v1.0-SNAPSHOT using Java 11.0.11 on 27b6ad968b69 with PID 1 (/notification-service.jar started by root in /)
+2021-07-14T10:29:12,709 [main] DEBUG com.upgrad.notificationservice.NotificationService - Running with Spring Boot v2.4.5, Spring v5.3.6
+2021-07-14T10:29:12,712 [main] INFO  com.upgrad.notificationservice.NotificationService - No active profile set, falling back to default profiles: default
+2021-07-14T10:29:20,417 [main] INFO  com.upgrad.notificationservice.NotificationService - Started NotificationService in 9.12 seconds (JVM running for 12.831)
+2021-07-16T06:45:09,879 [main] INFO  com.upgrad.notificationservice.NotificationService - Starting NotificationService v1.0-SNAPSHOT using Java 11.0.11 on 2b3593a61d92 with PID 1 (/notification-service.jar started by root in /)
+2021-07-16T06:45:09,902 [main] DEBUG com.upgrad.notificationservice.NotificationService - Running with Spring Boot v2.4.5, Spring v5.3.6
+2021-07-16T06:45:09,904 [main] INFO  com.upgrad.notificationservice.NotificationService - No active profile set, falling back to default profiles: default
+2021-07-16T06:45:16,908 [main] INFO  com.upgrad.notificationservice.NotificationService - Started NotificationService in 8.449 seconds (JVM running for 11.921)
+2021-07-16T06:48:02,192 [http-nio-8090-exec-1] INFO  com.upgrad.notificationservice.controller.NotificationController - Notification Service processing starts
+2021-07-16T06:48:10,947 [http-nio-8090-exec-2] INFO  com.upgrad.notificationservice.controller.NotificationController - Notification Service processing starts
+2021-07-16T06:48:13,527 [http-nio-8090-exec-3] INFO  com.upgrad.notificationservice.controller.NotificationController - Notification Service processing starts
+2021-07-16T07:28:21,232 [main] INFO  com.upgrad.notificationservice.NotificationService - Starting NotificationService v1.0-SNAPSHOT using Java 11.0.11 on 61fca4f7a6c2 with PID 1 (/notification-service.jar started by root in /)
+2021-07-16T07:28:21,280 [main] DEBUG com.upgrad.notificationservice.NotificationService - Running with Spring Boot v2.4.5, Spring v5.3.6
+2021-07-16T07:28:21,304 [main] INFO  com.upgrad.notificationservice.NotificationService - No active profile set, falling back to default profiles: default
+2021-07-16T07:28:26,843 [main] INFO  com.upgrad.notificationservice.NotificationService - Started NotificationService in 6.842 seconds (JVM running for 10.594)
+2021-07-16T07:29:11,403 [http-nio-8090-exec-1] INFO  com.upgrad.notificationservice.controller.NotificationController - Notification Service processing starts
+2021-07-16T07:29:14,101 [http-nio-8090-exec-2] INFO  com.upgrad.notificationservice.controller.NotificationController - Notification Service processing starts
+2021-07-16T07:29:27,641 [http-nio-8090-exec-3] INFO  com.upgrad.notificationservice.controller.NotificationController - Notification Service processing starts
+2021-07-16T10:45:40,926 [http-nio-8090-exec-6] INFO  com.upgrad.notificationservice.controller.NotificationController - Notification Service processing starts
+2021-07-16T10:45:41,990 [http-nio-8090-exec-7] INFO  com.upgrad.notificationservice.controller.NotificationController - Notification Service processing starts
+2021-07-16T10:45:44,329 [http-nio-8090-exec-8] INFO  com.upgrad.notificationservice.controller.NotificationController - Notification Service processing starts
+2021-07-16T13:23:48,736 [http-nio-8090-exec-3] INFO  com.upgrad.notificationservice.controller.NotificationController - Notification Service processing starts
+2021-07-16T13:23:50,290 [http-nio-8090-exec-4] INFO  com.upgrad.notificationservice.controller.NotificationController - Notification Service processing starts
+2021-07-16T13:23:51,591 [http-nio-8090-exec-5] INFO  com.upgrad.notificationservice.controller.NotificationController - Notification Service processing starts
+2021-07-16T16:50:27,531 [main] INFO  com.upgrad.notificationservice.NotificationService - Starting NotificationService v1.0-SNAPSHOT using Java 11.0.11 on 61fca4f7a6c2 with PID 1 (/notification-service.jar started by root in /)
+2021-07-16T16:50:27,593 [main] DEBUG com.upgrad.notificationservice.NotificationService - Running with Spring Boot v2.4.5, Spring v5.3.6
+2021-07-16T16:50:27,596 [main] INFO  com.upgrad.notificationservice.NotificationService - No active profile set, falling back to default profiles: default
+2021-07-16T16:50:32,925 [main] INFO  com.upgrad.notificationservice.NotificationService - Started NotificationService in 6.734 seconds (JVM running for 10.097)
+2021-07-16T16:53:24,564 [http-nio-8090-exec-10] INFO  com.upgrad.notificationservice.controller.NotificationController - Notification Service processing starts
+2021-07-16T17:11:41,470 [main] INFO  com.upgrad.notificationservice.NotificationService - Starting NotificationService v1.0-SNAPSHOT using Java 11.0.11 on 97f84f7d1c36 with PID 1 (/notification-service.jar started by root in /)
+2021-07-16T17:11:41,517 [main] DEBUG com.upgrad.notificationservice.NotificationService - Running with Spring Boot v2.4.5, Spring v5.3.6
+2021-07-16T17:11:41,520 [main] INFO  com.upgrad.notificationservice.NotificationService - No active profile set, falling back to default profiles: default
+2021-07-16T17:11:47,603 [main] INFO  com.upgrad.notificationservice.NotificationService - Started NotificationService in 7.501 seconds (JVM running for 11.738)

@@ -1,0 +1,147 @@
+2021-06-11T06:48:58,866 [main] INFO  com.upgrad.paymentservice.PaymentService - Starting PaymentService v1.0-SNAPSHOT using Java 11.0.11 on 1f3f333f2b37 with PID 1 (/payment-service.jar started by root in /)
+2021-06-11T06:48:58,881 [main] DEBUG com.upgrad.paymentservice.PaymentService - Running with Spring Boot v2.4.5, Spring v5.3.6
+2021-06-11T06:48:58,884 [main] INFO  com.upgrad.paymentservice.PaymentService - No active profile set, falling back to default profiles: default
+2021-06-11T06:49:01,615 [main] INFO  com.upgrad.paymentservice.PaymentService - Started PaymentService in 3.519 seconds (JVM running for 7.146)
+2021-06-11T07:00:38,482 [main] INFO  com.upgrad.paymentservice.PaymentService - Starting PaymentService v1.0-SNAPSHOT using Java 11.0.11 on 2b3b6e5c6c77 with PID 1 (/payment-service.jar started by root in /)
+2021-06-11T07:00:38,594 [main] DEBUG com.upgrad.paymentservice.PaymentService - Running with Spring Boot v2.4.5, Spring v5.3.6
+2021-06-11T07:00:38,597 [main] INFO  com.upgrad.paymentservice.PaymentService - No active profile set, falling back to default profiles: default
+2021-06-11T07:00:43,099 [main] INFO  com.upgrad.paymentservice.PaymentService - Started PaymentService in 5.672 seconds (JVM running for 8.635)
+2021-06-11T07:03:57,298 [main] INFO  com.upgrad.paymentservice.PaymentService - Starting PaymentService v1.0-SNAPSHOT using Java 11.0.11 on 2e8a8bd4c0e0 with PID 1 (/payment-service.jar started by root in /)
+2021-06-11T07:03:57,344 [main] DEBUG com.upgrad.paymentservice.PaymentService - Running with Spring Boot v2.4.5, Spring v5.3.6
+2021-06-11T07:03:57,349 [main] INFO  com.upgrad.paymentservice.PaymentService - No active profile set, falling back to default profiles: default
+2021-06-11T07:04:00,902 [main] INFO  com.upgrad.paymentservice.PaymentService - Started PaymentService in 4.408 seconds (JVM running for 6.473)
+2021-06-11T07:06:48,515 [main] INFO  com.upgrad.paymentservice.PaymentService - Starting PaymentService v1.0-SNAPSHOT using Java 11.0.11 on b43c5731b1d3 with PID 1 (/payment-service.jar started by root in /)
+2021-06-11T07:06:48,534 [main] DEBUG com.upgrad.paymentservice.PaymentService - Running with Spring Boot v2.4.5, Spring v5.3.6
+2021-06-11T07:06:48,536 [main] INFO  com.upgrad.paymentservice.PaymentService - No active profile set, falling back to default profiles: default
+2021-06-11T07:06:51,969 [main] INFO  com.upgrad.paymentservice.PaymentService - Started PaymentService in 4.279 seconds (JVM running for 6.521)
+2021-06-11T07:10:26,965 [main] INFO  com.upgrad.paymentservice.PaymentService - Starting PaymentService v1.0-SNAPSHOT using Java 11.0.11 on 1910a500f27e with PID 1 (/payment-service.jar started by root in /)
+2021-06-11T07:10:26,989 [main] DEBUG com.upgrad.paymentservice.PaymentService - Running with Spring Boot v2.4.5, Spring v5.3.6
+2021-06-11T07:10:26,991 [main] INFO  com.upgrad.paymentservice.PaymentService - No active profile set, falling back to default profiles: default
+2021-06-11T07:10:34,110 [main] INFO  com.upgrad.paymentservice.PaymentService - Started PaymentService in 8.307 seconds (JVM running for 11.005)
+2021-06-11T07:19:20,223 [http-nio-8060-exec-5] INFO  com.upgrad.paymentservice.controller.PaymentController - Processing payment for Amount=717.8016647681378 and UserId=123
+2021-06-11T07:19:20,229 [http-nio-8060-exec-5] ERROR com.upgrad.paymentservice.controller.PaymentController - Exception in processing payment for Amount=717.8016647681378 and UserId=123
+com.upgrad.paymentservice.model.PaymentException: Unable to process payment
+	at com.upgrad.paymentservice.service.PaymentServiceImpl.makePayment(PaymentServiceImpl.java:15) ~[classes!/:1.0-SNAPSHOT]
+	at com.upgrad.paymentservice.controller.PaymentController.makePayment(PaymentController.java:30) [classes!/:1.0-SNAPSHOT]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197) [spring-web-5.3.6.jar!/:5.3.6]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141) [spring-web-5.3.6.jar!/:5.3.6]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106) [spring-webmvc-5.3.6.jar!/:5.3.6]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:894) [spring-webmvc-5.3.6.jar!/:5.3.6]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) [spring-webmvc-5.3.6.jar!/:5.3.6]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) [spring-webmvc-5.3.6.jar!/:5.3.6]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1060) [spring-webmvc-5.3.6.jar!/:5.3.6]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:962) [spring-webmvc-5.3.6.jar!/:5.3.6]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) [spring-webmvc-5.3.6.jar!/:5.3.6]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909) [spring-webmvc-5.3.6.jar!/:5.3.6]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652) [tomcat-embed-core-9.0.45.jar!/:?]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) [spring-webmvc-5.3.6.jar!/:5.3.6]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733) [tomcat-embed-core-9.0.45.jar!/:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) [tomcat-embed-core-9.0.45.jar!/:?]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) [tomcat-embed-core-9.0.45.jar!/:?]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) [tomcat-embed-websocket-9.0.45.jar!/:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) [tomcat-embed-core-9.0.45.jar!/:?]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) [tomcat-embed-core-9.0.45.jar!/:?]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) [spring-web-5.3.6.jar!/:5.3.6]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.3.6.jar!/:5.3.6]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) [tomcat-embed-core-9.0.45.jar!/:?]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) [tomcat-embed-core-9.0.45.jar!/:?]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) [spring-web-5.3.6.jar!/:5.3.6]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.3.6.jar!/:5.3.6]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) [tomcat-embed-core-9.0.45.jar!/:?]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) [tomcat-embed-core-9.0.45.jar!/:?]
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:93) [spring-boot-actuator-2.4.5.jar!/:2.4.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.3.6.jar!/:5.3.6]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) [tomcat-embed-core-9.0.45.jar!/:?]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) [tomcat-embed-core-9.0.45.jar!/:?]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) [spring-web-5.3.6.jar!/:5.3.6]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.3.6.jar!/:5.3.6]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) [tomcat-embed-core-9.0.45.jar!/:?]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) [tomcat-embed-core-9.0.45.jar!/:?]
+	at io.opentracing.contrib.web.servlet.filter.TracingFilter.doFilter(TracingFilter.java:189) [opentracing-web-servlet-filter-0.4.0.jar!/:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) [tomcat-embed-core-9.0.45.jar!/:?]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) [tomcat-embed-core-9.0.45.jar!/:?]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) [tomcat-embed-core-9.0.45.jar!/:?]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) [tomcat-embed-core-9.0.45.jar!/:?]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) [tomcat-embed-core-9.0.45.jar!/:?]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143) [tomcat-embed-core-9.0.45.jar!/:?]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.45.jar!/:?]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) [tomcat-embed-core-9.0.45.jar!/:?]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357) [tomcat-embed-core-9.0.45.jar!/:?]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374) [tomcat-embed-core-9.0.45.jar!/:?]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.45.jar!/:?]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893) [tomcat-embed-core-9.0.45.jar!/:?]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707) [tomcat-embed-core-9.0.45.jar!/:?]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.45.jar!/:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.45.jar!/:?]
+	at java.lang.Thread.run(Thread.java:829) [?:?]
+2021-06-11T07:19:39,068 [http-nio-8060-exec-6] INFO  com.upgrad.paymentservice.controller.PaymentController - Processing payment for Amount=155.00231566326562 and UserId=123
+2021-06-11T17:17:03,969 [main] INFO  com.upgrad.paymentservice.PaymentService - Starting PaymentService using Java 11.0.9 on UE-M-LAP-0686 with PID 15532 (C:\Users\Jyoti.Kumari\3D Objects\ecommerce\payment-service\target\classes started by Jyoti.Kumari in C:\Users\Jyoti.Kumari\3D Objects\ecommerce)
+2021-06-11T17:17:03,977 [main] DEBUG com.upgrad.paymentservice.PaymentService - Running with Spring Boot v2.4.5, Spring v5.3.6
+2021-06-11T17:17:03,978 [main] INFO  com.upgrad.paymentservice.PaymentService - No active profile set, falling back to default profiles: default
+2021-06-11T17:17:06,252 [main] INFO  com.upgrad.paymentservice.PaymentService - Started PaymentService in 2.702 seconds (JVM running for 5.881)
+2021-07-13T12:39:24,968 [main] INFO  com.upgrad.paymentservice.PaymentService - Starting PaymentService v1.0-SNAPSHOT using Java 11.0.11 on 398e5692ddb3 with PID 1 (/payment-service.jar started by root in /)
+2021-07-13T12:39:24,990 [main] DEBUG com.upgrad.paymentservice.PaymentService - Running with Spring Boot v2.4.5, Spring v5.3.6
+2021-07-13T12:39:24,992 [main] INFO  com.upgrad.paymentservice.PaymentService - No active profile set, falling back to default profiles: default
+2021-07-13T12:39:31,311 [main] INFO  com.upgrad.paymentservice.PaymentService - Started PaymentService in 7.226 seconds (JVM running for 9.564)
+2021-07-13T16:28:32,083 [main] INFO  com.upgrad.paymentservice.PaymentService - Starting PaymentService v1.0-SNAPSHOT using Java 11.0.11 on 398e5692ddb3 with PID 1 (/payment-service.jar started by root in /)
+2021-07-13T16:28:32,100 [main] DEBUG com.upgrad.paymentservice.PaymentService - Running with Spring Boot v2.4.5, Spring v5.3.6
+2021-07-13T16:28:32,102 [main] INFO  com.upgrad.paymentservice.PaymentService - No active profile set, falling back to default profiles: default
+2021-07-13T16:28:38,926 [main] INFO  com.upgrad.paymentservice.PaymentService - Started PaymentService in 7.728 seconds (JVM running for 9.622)
+2021-07-13T22:17:26,773 [main] INFO  com.upgrad.paymentservice.PaymentService - Starting PaymentService using Java 11.0.11 on LAPTOP-MC7LVCQF with PID 5408 (C:\Users\mouli\Moulina_Storage\UpgradWork\Workspaces\LogMatricTraces\ecommerce\payment-service\target\classes started by mouli in C:\Users\mouli\Moulina_Storage\UpgradWork\Workspaces\LogMatricTraces\ecommerce)
+2021-07-13T22:17:26,773 [main] DEBUG com.upgrad.paymentservice.PaymentService - Running with Spring Boot v2.4.5, Spring v5.3.6
+2021-07-13T22:17:26,773 [main] INFO  com.upgrad.paymentservice.PaymentService - No active profile set, falling back to default profiles: default
+2021-07-13T16:53:25,694 [main] INFO  com.upgrad.paymentservice.PaymentService - Starting PaymentService v1.0-SNAPSHOT using Java 11.0.11 on 398e5692ddb3 with PID 1 (/payment-service.jar started by root in /)
+2021-07-13T16:53:25,707 [main] DEBUG com.upgrad.paymentservice.PaymentService - Running with Spring Boot v2.4.5, Spring v5.3.6
+2021-07-13T16:53:25,709 [main] INFO  com.upgrad.paymentservice.PaymentService - No active profile set, falling back to default profiles: default
+2021-07-13T16:53:31,987 [main] INFO  com.upgrad.paymentservice.PaymentService - Started PaymentService in 6.865 seconds (JVM running for 8.314)
+2021-07-13T16:58:40,381 [main] INFO  com.upgrad.paymentservice.PaymentService - Starting PaymentService v1.0-SNAPSHOT using Java 11.0.11 on 398e5692ddb3 with PID 1 (/payment-service.jar started by root in /)
+2021-07-13T16:58:40,394 [main] DEBUG com.upgrad.paymentservice.PaymentService - Running with Spring Boot v2.4.5, Spring v5.3.6
+2021-07-13T16:58:40,396 [main] INFO  com.upgrad.paymentservice.PaymentService - No active profile set, falling back to default profiles: default
+2021-07-13T16:58:46,461 [main] INFO  com.upgrad.paymentservice.PaymentService - Started PaymentService in 6.675 seconds (JVM running for 8.114)
+2021-07-13T17:02:01,120 [main] INFO  com.upgrad.paymentservice.PaymentService - Starting PaymentService v1.0-SNAPSHOT using Java 11.0.11 on 398e5692ddb3 with PID 1 (/payment-service.jar started by root in /)
+2021-07-13T17:02:01,138 [main] DEBUG com.upgrad.paymentservice.PaymentService - Running with Spring Boot v2.4.5, Spring v5.3.6
+2021-07-13T17:02:01,140 [main] INFO  com.upgrad.paymentservice.PaymentService - No active profile set, falling back to default profiles: default
+2021-07-13T17:02:08,350 [main] INFO  com.upgrad.paymentservice.PaymentService - Started PaymentService in 7.836 seconds (JVM running for 9.313)
+2021-07-14T10:29:08,987 [main] INFO  com.upgrad.paymentservice.PaymentService - Starting PaymentService v1.0-SNAPSHOT using Java 11.0.11 on 398e5692ddb3 with PID 1 (/payment-service.jar started by root in /)
+2021-07-14T10:29:09,013 [main] DEBUG com.upgrad.paymentservice.PaymentService - Running with Spring Boot v2.4.5, Spring v5.3.6
+2021-07-14T10:29:09,015 [main] INFO  com.upgrad.paymentservice.PaymentService - No active profile set, falling back to default profiles: default
+2021-07-14T10:29:17,354 [main] INFO  com.upgrad.paymentservice.PaymentService - Started PaymentService in 9.583 seconds (JVM running for 12.927)
+2021-07-16T06:45:06,052 [main] INFO  com.upgrad.paymentservice.PaymentService - Starting PaymentService v1.0-SNAPSHOT using Java 11.0.11 on ba5d8eb01ff8 with PID 1 (/payment-service.jar started by root in /)
+2021-07-16T06:45:06,087 [main] DEBUG com.upgrad.paymentservice.PaymentService - Running with Spring Boot v2.4.5, Spring v5.3.6
+2021-07-16T06:45:06,091 [main] INFO  com.upgrad.paymentservice.PaymentService - No active profile set, falling back to default profiles: default
+2021-07-16T06:45:13,832 [main] INFO  com.upgrad.paymentservice.PaymentService - Started PaymentService in 8.897 seconds (JVM running for 12.1)
+2021-07-16T06:48:01,470 [http-nio-8060-exec-1] INFO  com.upgrad.paymentservice.controller.PaymentController - Payment Service processing starts with userId::1
+2021-07-16T06:48:01,487 [http-nio-8060-exec-1] ERROR com.upgrad.paymentservice.controller.PaymentController - Payment Service producing exception with userId::1
+2021-07-16T06:48:10,888 [http-nio-8060-exec-2] INFO  com.upgrad.paymentservice.controller.PaymentController - Payment Service processing starts with userId::1
+2021-07-16T06:48:13,500 [http-nio-8060-exec-3] INFO  com.upgrad.paymentservice.controller.PaymentController - Payment Service processing starts with userId::1
+2021-07-16T07:28:16,257 [main] INFO  com.upgrad.paymentservice.PaymentService - Starting PaymentService v1.0-SNAPSHOT using Java 11.0.11 on bad8102be91a with PID 1 (/payment-service.jar started by root in /)
+2021-07-16T07:28:16,282 [main] DEBUG com.upgrad.paymentservice.PaymentService - Running with Spring Boot v2.4.5, Spring v5.3.6
+2021-07-16T07:28:16,285 [main] INFO  com.upgrad.paymentservice.PaymentService - No active profile set, falling back to default profiles: default
+2021-07-16T07:28:23,315 [main] INFO  com.upgrad.paymentservice.PaymentService - Started PaymentService in 7.941 seconds (JVM running for 10.859)
+2021-07-16T07:29:10,895 [http-nio-8060-exec-1] INFO  com.upgrad.paymentservice.controller.PaymentController - Payment Service processing starts with userId::1
+2021-07-16T07:29:10,899 [http-nio-8060-exec-1] ERROR com.upgrad.paymentservice.controller.PaymentController - Payment Service producing exception with userId::1
+2021-07-16T07:29:14,077 [http-nio-8060-exec-2] INFO  com.upgrad.paymentservice.controller.PaymentController - Payment Service processing starts with userId::1
+2021-07-16T07:29:27,612 [http-nio-8060-exec-3] INFO  com.upgrad.paymentservice.controller.PaymentController - Payment Service processing starts with userId::1
+2021-07-16T10:45:40,826 [http-nio-8060-exec-8] INFO  com.upgrad.paymentservice.controller.PaymentController - Payment Service processing starts with userId::1
+2021-07-16T10:45:41,963 [http-nio-8060-exec-9] INFO  com.upgrad.paymentservice.controller.PaymentController - Payment Service processing starts with userId::1
+2021-07-16T10:45:41,965 [http-nio-8060-exec-9] ERROR com.upgrad.paymentservice.controller.PaymentController - Payment Service producing exception with userId::1
+2021-07-16T10:45:44,306 [http-nio-8060-exec-10] INFO  com.upgrad.paymentservice.controller.PaymentController - Payment Service processing starts with userId::1
+2021-07-16T13:23:48,574 [http-nio-8060-exec-3] INFO  com.upgrad.paymentservice.controller.PaymentController - Payment Service processing starts with userId::1
+2021-07-16T13:23:50,274 [http-nio-8060-exec-4] INFO  com.upgrad.paymentservice.controller.PaymentController - Payment Service processing starts with userId::1
+2021-07-16T13:23:50,276 [http-nio-8060-exec-4] ERROR com.upgrad.paymentservice.controller.PaymentController - Payment Service producing exception with userId::1
+2021-07-16T13:23:51,576 [http-nio-8060-exec-5] INFO  com.upgrad.paymentservice.controller.PaymentController - Payment Service processing starts with userId::1
+2021-07-16T16:50:22,700 [main] INFO  com.upgrad.paymentservice.PaymentService - Starting PaymentService v1.0-SNAPSHOT using Java 11.0.11 on bad8102be91a with PID 1 (/payment-service.jar started by root in /)
+2021-07-16T16:50:22,720 [main] DEBUG com.upgrad.paymentservice.PaymentService - Running with Spring Boot v2.4.5, Spring v5.3.6
+2021-07-16T16:50:22,722 [main] INFO  com.upgrad.paymentservice.PaymentService - No active profile set, falling back to default profiles: default
+2021-07-16T16:50:29,097 [main] INFO  com.upgrad.paymentservice.PaymentService - Started PaymentService in 7.283 seconds (JVM running for 9.392)
+2021-07-16T16:53:24,062 [http-nio-8060-exec-9] INFO  com.upgrad.paymentservice.controller.PaymentController - Payment Service processing starts with userId::1
+2021-07-16T17:11:38,159 [main] INFO  com.upgrad.paymentservice.PaymentService - Starting PaymentService v1.0-SNAPSHOT using Java 11.0.11 on 49b73ac64944 with PID 1 (/payment-service.jar started by root in /)
+2021-07-16T17:11:38,187 [main] DEBUG com.upgrad.paymentservice.PaymentService - Running with Spring Boot v2.4.5, Spring v5.3.6
+2021-07-16T17:11:38,192 [main] INFO  com.upgrad.paymentservice.PaymentService - No active profile set, falling back to default profiles: default
+2021-07-16T17:11:46,076 [main] INFO  com.upgrad.paymentservice.PaymentService - Started PaymentService in 9.337 seconds (JVM running for 13.899)

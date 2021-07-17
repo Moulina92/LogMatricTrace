@@ -1,0 +1,17 @@
+{
+	"ulid": "01FAQRA6VG92NYSRSBQ3YNKQND",
+	"minTime": 1626431573945,
+	"maxTime": 1626436800000,
+	"stats": {
+		"numSamples": 114641,
+		"numSeries": 329,
+		"numChunks": 658
+	},
+	"compaction": {
+		"level": 1,
+		"sources": [
+			"01FAQRA6VG92NYSRSBQ3YNKQND"
+		]
+	},
+	"version": 1
+}

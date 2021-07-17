@@ -1,0 +1,17 @@
+{
+	"ulid": "01FAR3NF6BE7WQRTG0W02V19ZT",
+	"minTime": 1626436800000,
+	"maxTime": 1626444000000,
+	"stats": {
+		"numSamples": 126336,
+		"numSeries": 329,
+		"numChunks": 1316
+	},
+	"compaction": {
+		"level": 1,
+		"sources": [
+			"01FAR3NF6BE7WQRTG0W02V19ZT"
+		]
+	},
+	"version": 1
+}

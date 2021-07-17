@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="grafana" uuid="42db65fc-6620-4519-98bb-cf7cd2176eb4">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:C:\Users\mouli\Moulina_Storage\UpgradWork\Workspaces\LogMatricTraces\ecommerce\data\grafana\grafana.db</jdbc-url>
+    </data-source>
+  </component>
+</project>
